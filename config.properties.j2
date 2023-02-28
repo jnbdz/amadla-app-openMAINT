@@ -1,0 +1,39 @@
+{# General configurations #}
+org.cmdbuild.auth.case.insensitive=
+org.cmdbuild.auth.loginAttributeMode=
+org.cmdbuild.auth.loginServiceReturnSessionId=
+org.cmdbuild.auth.logoutRedirect=
+org.cmdbuild.auth.maxLoginAttempts.count=
+org.cmdbuild.auth.maxLoginAttempts.window=
+org.cmdbuild.auth.preferredPasswordAlgorythm=
+org.cmdbuild.auth.users.expireInactiveAfterPeriod=
+
+{# SAML configurations #}
+org.cmdbuild.auth.module.saml.handlerScript={{ auth["saml"]["handler_script"] }}
+org.cmdbuild.auth.module.saml.idp.cert={{ auth["saml"]["idp"]["cert"]["path"] }}
+org.cmdbuild.auth.module.saml.idp.id={{ auth["saml"] }}
+org.cmdbuild.auth.module.saml.idp.login={{ auth["saml"] }}
+org.cmdbuild.auth.module.saml.idp.logout={{ auth["saml"] }}
+org.cmdbuild.auth.module.saml.logout.enabled={{ auth["saml"] }}
+org.cmdbuild.auth.module.saml.requireSignedAssertions={{ auth["saml"] }}
+org.cmdbuild.auth.module.saml.requireSignedMessages={{ auth["saml"] }}
+org.cmdbuild.auth.module.saml.signatureAlgorithm={{ auth["saml"] }}
+org.cmdbuild.auth.module.saml.sp.baseUrl={{ auth["saml"] }}
+org.cmdbuild.auth.module.saml.sp.cert={{ auth["saml"] }}
+org.cmdbuild.auth.module.saml.sp.id={{ auth["saml"] }}
+org.cmdbuild.auth.module.saml.sp.key={{ auth["saml"] }}
+org.cmdbuild.auth.module.saml.strict={{ auth["saml"] }}
+
+{# OAuth configurations #}
+org.cmdbuild.auth.module.oauth.clientId=
+org.cmdbuild.auth.module.oauth.clientSecret=
+org.cmdbuild.auth.module.oauth.login.attr=
+org.cmdbuild.auth.module.oauth.login.type=
+org.cmdbuild.auth.module.oauth.logout.enabled=
+org.cmdbuild.auth.module.oauth.logout.redirectUrl=
+org.cmdbuild.auth.module.oauth.protocol=
+org.cmdbuild.auth.module.oauth.redirectUrl=
+org.cmdbuild.auth.module.oauth.resourceId=
+org.cmdbuild.auth.module.oauth.scope=
+org.cmdbuild.auth.module.oauth.serviceUrl=
+org.cmdbuild.auth.module.oauth.tenantId=
