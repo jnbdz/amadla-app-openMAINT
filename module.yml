@@ -1,0 +1,22 @@
+---
+version: 1
+module:
+  description: OpenMAINT - Property and Facility Management and Maintenance Processes.
+  authors:
+    - Jean-Nicolas Boulay (JN) <https://jean-nicolas.name>
+  category: Application
+  tags:
+    - property
+    - management
+    - facility
+    - maintenance processes
+  configuration:
+    network:
+      private:
+        entries:
+          - location: /openmaint
+            ports:
+              - internal: 8080
+                external: 80
+              - internal: 8080
+                external: 443
